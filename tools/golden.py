@@ -2,6 +2,9 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = ["torch>=2.6", "transformers>=5.0", "safetensors", "numpy", "tokenizers>=0.21"]
+# [tool.uv]
+# required-version = ">=0.13.4"
+# exclude-newer = "P7D"
 # ///
 """Dev-time reference dump. Never shipped, never needed at runtime.
 
